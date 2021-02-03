@@ -33,6 +33,6 @@ The quiz game was created to interact with user in a funny way. The app gives us
 * corobcenco.sandu@gmail.com
 * [Sandu Corobcenco](https://github.com/SanduCorobcenco)
 ##### Directory:
-* [Current Repository](https://github.com/MatacheMarius/Quiz-Game-JS)
+* [Current Repository](https://github.com/SanduCorobcenco/H4_JavascriptFundamentals_QuizApp)
 * [Website](https://sanducorobcenco.github.io/H4_JavascriptFundamentals_QuizApp/)
 
