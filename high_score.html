@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Score</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style_high_score.css">    
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="high_score">High Score</h1>
+           <button id="btn_clear_data">Clear Data</button>
+           <button id="btn_home_page" onClick="window.location='index.html';"> Home Page </button>
+        
+
+        </div>
+        <div class="items_list">
+            
+            <div class="user_line">
+                <ul>
+                    <li> <div id="user_name">""</div>
+<div id="score">""</div>  </li>
+                    
+                </ul>
+               
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+var button = document.getElementById('btn_clear_data')        
+var User = document.getElementById('user_name');
+var Score = document.getElementById('score'); 
+
+//button.addEventListener("click", localStorage.clear());
+button.addEventListener("click", clean);
+function clean(){
+localStorage.clear();
+location.reload();
+}
+
+// Acces data from local storage
+        var data = JSON.parse(localStorage.getItem('dataSaved'))
+        console.log(data);
+User.textContent = data.userIn;
+Score.textContent = data.score;
+console.log(User.textContent);
+console.log(Score.textContent);
+
+    </script>
+</body>
+
+</html>

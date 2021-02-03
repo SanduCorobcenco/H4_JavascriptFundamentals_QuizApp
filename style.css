@@ -1,0 +1,74 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: gold     ;
+}
+.container {
+   width: 800px;
+   max-width: 80%;
+   background-color: blanchedalmond;
+   border-radius: 5px;
+   padding: 20px;
+   box-shadow: 0 0 5px 2px;
+}
+#user_name {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+    gap: 25px;
+    margin: 40px 0;
+}
+#btn1 ,#btn2 ,#btn3 ,#btn4{
+    color: black;
+    background-color: #009eff;
+    height: 45px;
+    border: 2px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#btn1:hover ,#btn2:hover, #btn3:hover, #btn4:hover{
+    border-color: #1cee13;
+}
+#start-btn {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 15px 20px;
+
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    top: 0px;
+}
+.high_score {
+    position: relative;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.timer{
+    position: absolute;
+    right: 150px;
+    top:25px ;
+}

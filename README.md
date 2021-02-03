@@ -1,1 +1,1 @@
-# H4_JavascriptFundamentals_QuizApp
+QuizzApp is an application that interacts with the user by creating an interface through which the user chooses the correct option and the program adds points to the user for the correct answer or penalizes for the wrong answer. The given application is based on a more detailed understanding of objects in JavaScript and the interaction between object data and UI.
