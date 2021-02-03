@@ -9,7 +9,7 @@ The quiz game was created to interact with user in a funny way. The app gives us
 
 
 
-![Home test <768px]()
+![Home test <768px](/1.png)
 
 
 
