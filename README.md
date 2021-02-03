@@ -1,1 +1,38 @@
-QuizzApp is an application that interacts with the user by creating an interface through which the user chooses the correct option and the program adds points to the user for the correct answer or penalizes for the wrong answer. The given application is based on a more detailed understanding of objects in JavaScript and the interaction between object data and UI.
+# JavascriptFundamentals Quiz App
+
+### Description of project
+
+The quiz game was created to interact with user in a funny way. The app gives user the possibility to learn about Javascript using Q/A method. The points that user was given after the game is stored in local storage which can be accessed on the high score page. 
+
+
+
+
+
+
+![Home test <768px]()
+
+
+
+
+## Instructions
+* Press Start Game button to play.
+* Answer to the questions.
+* Save your score.
+
+
+## Credits
+* Resources used for this project: 
+    * - [Bootstrap](https://getbootstrap.com/)
+    * - [W3Schools](https://www.w3schools.com/) 
+    * - [Javascript Site](https://www.javascript.com/)
+    * - [Developer_Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+*
+
+##### Contributors:
+
+* corobcenco.sandu@gmail.com
+* [Sandu Corobcenco](https://github.com/SanduCorobcenco)
+##### Directory:
+* [Current Repository](https://github.com/MatacheMarius/Quiz-Game-JS)
+* [Website](https://sanducorobcenco.github.io/H4_JavascriptFundamentals_QuizApp/)
+
